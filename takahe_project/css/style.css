@@ -15,6 +15,7 @@ h1{
     margin-top: 15%;
     margin-left: 12.5%;
     margin-right: 7.5%;
+    color: #f5f5f5;
 }
 
 h2{
@@ -22,6 +23,7 @@ h2{
     margin-top: 5%;
     margin-left: 12.5%;
     margin-right: 7.5%;
+    color: #f5f5f5;
 }
 
 h4{
@@ -35,7 +37,7 @@ p{
     font-size: 1.5em;
     margin-top: 5%;
     margin-left: 12.5%;
-    margin-right: 7.5%;
+    margin-right: 2.5%;
 }
 
 /* ---- IMAGERY-----*/
@@ -58,13 +60,16 @@ body{
     width: 100%;
     height: 100vh;
     background-color: aqua;
+    background-image: url(../images/herobg.png);
+    background-size: 100% ;
+    background-repeat: no-repeat;
       z-index: 1;
   position: absolute;
   bottom: 0;
 }
 
 #part1{
-    width: 100%;
+    width: 200%;
     height: 100vh;
     background-color: green;
   z-index: 2;
@@ -73,12 +78,39 @@ body{
   bottom: 0;
 }
 
+#firstpara1{
+    margin-top: 10%;
+    width: 25%;
+    height: 12.5%;
+}
+
+#firstpara2{
+    margin-top: 5%;
+    margin-left: 25%;
+    width: 25%;
+    height: 17.5%;
+}
+
+#firstpara3{
+    margin-top: -15%;
+    margin-left: 50%;
+    width: 25%;
+    height: 20%;
+}
+
+#firstpara4{
+    margin-top: 4%;
+    margin-left: 75%;
+    width: 25%;
+    height: 20%;
+}
+
 #part2{
-    width: 100%;
+    width: 400%;
     height: 100vh;
     background-color: yellow;
   z-index: 3;
-  margin-left: 200%;
+  margin-left: 300%;
   position: absolute;
   bottom: 0;
 }
@@ -88,7 +120,7 @@ body{
     height: 100vh;
     background-color: red;
   z-index: 4;
-  margin-left: 300%;
+  margin-left: 700%;
   position: absolute;
   bottom: 0;
 }
@@ -98,7 +130,7 @@ body{
     height: 100vh;
     background-color: deepskyblue;
   z-index: 5;
-  margin-left: 400%;
+  margin-left: 800%;
   position: absolute;
   bottom: 0;
 }
@@ -108,7 +140,7 @@ body{
     height: 100vh;
     background-color: orange;
   z-index: 6;
-  margin-left: 500%;
+  margin-left: 900%;
   position: absolute;
   bottom: 0;
 }
@@ -118,7 +150,7 @@ body{
     height: 100vh;
     background-color: pink;
   z-index: 7;
-  margin-left: 600%;
+  margin-left: 1000%;
   position: absolute;
   bottom: 0;
 }
@@ -128,7 +160,7 @@ body{
     height: 100vh;
     background-color: lightgrey;
   z-index: 7;
-  margin-left: 700%;
+  margin-left: 1100%;
   position: absolute;
   bottom: 0;
     
